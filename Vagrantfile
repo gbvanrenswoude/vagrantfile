@@ -47,8 +47,8 @@ Vagrant.configure("2") do |config|
     sudo apt-get -y update
     sudo apt-get -y install docker.io unzip wget jq git #ansible  its better to install ansible using pip for python dependencies
     sudo gpasswd -a vagrant docker
-    sudo wget https://releases.hashicorp.com/packer/0.12.0/packer_0.12.0_linux_amd64.zip
-    sudo unzip packer_0.12.0_linux_amd64.zip -d /usr/local/bin
+    sudo wget https://releases.hashicorp.com/packer/1.4.1/packer_1.4.1_linux_amd64.zip
+    sudo unzip packer_1.4.1_linux_amd64.zip -d /usr/local/bin
     sudo wget https://releases.hashicorp.com/terraform/0.11.0/terraform_0.11.0_linux_amd64.zip
     sudo unzip terraform_0.11.0_linux_amd64.zip -d /usr/local/bin
     wget https://storage.googleapis.com/kubernetes-release/release/v1.12.0/bin/linux/amd64/kubectl
